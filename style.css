@@ -1,0 +1,101 @@
+html,
+body {
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	background-image: linear-gradient(to right top, #f13333, #d92525, #c11818, #aa0a0a, #940000);
+}
+
+.header {
+	color: white;
+	font-family: 'Yeon Sung';
+	font-size: 45px;
+	letter-spacing: 10px;
+	margin-top: 80px;
+}
+
+.header img {
+	width: 80px;
+	margin-left: -15px;
+}
+
+.LoginDiv {
+	background: rgba(255, 255, 255, 0.8);
+	float: none;
+	border-radius: 15px;
+}
+
+.logo {
+	width: 80px;
+	margin-top: 30px;
+	border-radius: 40px;
+}
+
+#LoginButton {
+	width: 80%;
+	border-radius: 15px;
+}
+
+.roomname {
+	cursor: pointer;
+	font-size: 20px;
+}
+
+
+#LogOut {
+	font-size: 20px;
+	float: right;
+}
+
+
+#Output {
+	padding: 10px;
+	width: 80%;
+	background: rgba(255, 255, 255, 0.8);
+	border-radius: 15px;
+}
+
+.Room {
+	width: 80%;
+}
+
+.InputDiv label {
+	color: white;
+	font-size: 20px;
+}
+
+
+.page {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	background: rgba(255, 255, 255, 0.8);
+}
+
+.page label {
+	color: black;
+}
+
+.page #msg {
+	width: 80%;
+}
+
+.page button {
+	margin-top: 15px;
+	width: 50%;
+}
+
+.ColorWhite {
+	color: white
+}
+
+.tick {
+	width: 20px;
+}
+
+.message {
+	padding-left: 5px;
+	color: grey;
+}
